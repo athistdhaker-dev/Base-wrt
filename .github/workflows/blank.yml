@@ -44,7 +44,7 @@ jobs:
         run: |
           git clone https://github.com/openwrt/openwrt.git
           cd openwrt
-          git checkout 25.12.3
+          git checkout 25.12
           git fetch origin pull/22201/head:pr22201
           git checkout pr22201
 
